@@ -1,0 +1,4 @@
+temp=float(input("enter temperature"))
+humidity=float(input("enter humidity"))
+windspeed=float(input("enter the wind speed"))
+ww=((0.5*((temp))*2))-(0.2*humidity)+(0.1*windspeed)-15
